@@ -1,0 +1,22 @@
+/* Chrome, Safari, Edge, Opera */
+.input-with-custom-controls::-webkit-outer-spin-button,
+.input-with-custom-controls::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input-with-custom-controls {
+  -moz-appearance: textfield;
+  padding-right: 28px;
+}
+
+.native-input-container {
+  position: relative;
+}
+
+.native-input-container > label,
+.native-input-container > input {
+  width: 100%;
+  box-sizing: border-box;
+}

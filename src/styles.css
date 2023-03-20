@@ -1,0 +1,35 @@
+html, body {
+    padding: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    margin: 1rem auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem;
+    gap: 2rem;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.property-manager h2 {
+    margin: 0;
+}
+
+.output-value {
+    display: inline-block;
+    margin-top: .5rem;
+}

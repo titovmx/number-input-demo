@@ -1,0 +1,27 @@
+.numeric-input-controls {
+  position: absolute;
+  width: 28px;
+  display: flex;
+  flex-direction: column;
+  bottom: 1px;
+  right: 1px;
+  border-left: 1px solid grey;
+}
+
+.numeric-input-controls > button:last-of-type {
+  transform: rotate(180deg);
+  border-bottom: 1px solid grey;
+}
+
+.numeric-input-controls > button {
+  height: 10px;
+  line-height: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+}
+
+.numeric-input-controls > button[disabled] {
+  color: grey;
+}
+

@@ -1,0 +1,10 @@
+.property-group {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #EEECEC;
+  border-radius: .5rem;
+}
+
+.property:not(:first-of-type) {
+  margin-top: 1rem;
+}

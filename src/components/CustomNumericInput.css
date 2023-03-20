@@ -1,0 +1,13 @@
+.custom-input-container {
+  position: relative;
+}
+
+.custom-input-container > label,
+.custom-input-container > input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.custom-input-container > input {
+  padding-right: 28px;
+}
